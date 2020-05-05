@@ -1,5 +1,5 @@
 # Setting up the Bitwarden add-on on Home Assistant Tutorial
-*Using Nginx Proxy Manager or Duckdns*
+*Using Nginx Proxy Manager or Duckdns (comming Soon)*
 
 Table of contents
 =================
@@ -7,8 +7,12 @@ Table of contents
 <!--ts-->
    * [The Bitwarden Add-on](#the-bitwarden-add-on)
    * [From Public Domain to local the Local Bitwarden Add-on](#from-public-domain-to-local-the-local-Bitwarden-add-on)
-      * [Creating an A Host Record](#creating-an-a-host-record)
-
+      * [Creating an "A Host Record"](#creating-an-a-host-record)
+      * [Redirecting incomming traffic to my local network"](#redirecting-incomming-traffic-to-my-local-network)
+      * [Setting up Port Forwarding](#Setting-up-Port-Forwarding)
+   * [Installing Nginx Proxy Manager (and MariaBD)](#installing-nginx-proxy-manager-and-mariabd)
+   * [Installing Bitwarden](#Installing-Bitwarden)
+   
 <!--te-->
 
 # The Bitwarden add-on #
