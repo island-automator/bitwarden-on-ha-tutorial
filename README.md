@@ -1,14 +1,24 @@
 # Setting up the Bitwarden add-on on Home Assistant Tutorial
 *Using Nginx Proxy Manager or Duckdns*
 
-# What’s the Bitwarden Add-on? #
+Table of contents
+=================
+
+<!--ts-->
+   * [The Bitwarden Add-on](#the-bitwarden-add-on)
+   * [From Public Domain to local the Local Bitwarden Add-on](#from-public-domain-to-local-the-local-Bitwarden-add-on)
+      * [Creating an A Host Record](#creating-an-a-host-record)
+
+<!--te-->
+
+# The Bitwarden add-on #
 Bitwarden is an Add-on on Home Assistant that can be installed and used as a local Vault for all your passwords. It’s like a LastPass but instead of using the cloud, it’s actually running locally on the same machine as your Home-Assistant. 
 
 For Bitwarden to be useful you will need to be able to access it from the public internet, this can be achieved by using a domain and routing the traffic to your Bitwarden Add-on. 
 
 To correctly run the Bitwarden add-on on Home Assistant you need to have an SSL certificate. Before I show you how to install this, I would like to show you the setup we are going for.
 
-# From Public Domain to local the Local Bitwarden Add-on#
+# From public domain to local the local Bitwarden add-on#
 Imagine you want to be able to access Bitwarden from an external (sub)domain like bitwarden.example.com. The first thing you need to do is to create the subdomain bitwarden and point it to the public IP of your ISP (Internet Service Provider) modem. 
 
 ## Creating an A Host Record ##
