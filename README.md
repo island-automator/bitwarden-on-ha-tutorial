@@ -1,5 +1,5 @@
 # Setting up the Bitwarden add-on on Home Assistant Tutorial
-*Using Nginx Proxy Manager or Duckdns (comming Soon)*
+*Using Nginx Proxy Manager or Duckdns (coming Soon)*
 
 Table of contents
 =================
@@ -12,6 +12,7 @@ Table of contents
       * [Setting up Port Forwarding](#Setting-up-Port-Forwarding)
    * [Installing Nginx Proxy Manager (and MariaBD)](#installing-nginx-proxy-manager-and-mariabd)
    * [Installing Bitwarden](#Installing-Bitwarden)
+   * [Todo](#todo)
    
 <!--te-->
 
@@ -107,4 +108,5 @@ keyfile: nginxproxymanager/live/npm-#/privkey.pem
 9. Fill in the information and click on Submit.
 10. Login with the newly created credentials
 
-## To be continued
+# Todo #
+- DuckDNS
