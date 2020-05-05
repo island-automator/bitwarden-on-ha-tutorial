@@ -8,7 +8,7 @@ For Bitwarden to be useful you will need to be able to access it from the public
 
 To correctly run the Bitwarden add-on on home assistant you need to have an SSL certificate. Before I show you how to install this, I would like to show you the setup we are going for.
 
-# Understanding the full Picture #
+# Understanding the full picture #
 Imagine you want to be able to access Bitwarden from an external domain like bitwarden.example.com. The first thing you need to do is to create the subdomain bitwarden and point it to the public IP of your ISP (Internet Service Provider). This can be achieved by creating an “A Host Record” for bitwarden to point to the IP of your ISP. This will route the HTTP and HTTPS traffic from the bitwarden.example.com domain towards the IP given to your ISP.
 
 If you don’t know this IP you can go to Google.com and while on your home network (without using a VPN or anything that can change your IP) search for “What’s my IP” and you should see the IP given to you by your ISP. 
