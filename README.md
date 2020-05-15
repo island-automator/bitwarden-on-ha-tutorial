@@ -60,10 +60,11 @@ In the Unifi Controller, you need to go to Settings => Routing & Firewall => Por
 _note: make sure that there are no other port forwarding rules for port 80 or 443 enabled._
 
 # Installing Nginx Proxy Manager (and MariaBD) #
+_note: If your using MariaDB with Home Assisant already you can skip this step._
+
 In Home Assistant head on over to the Supervisor => Add-on store => and search for the Nginx Proxy Manager and click on install. Go back to the Add-On store search for MariaDB, the Nginx Proxy Manager requires the MariaDB to be installed and configured for it to run correctly. Install the MariaDB Add-on and make sure to configure the add-on correctly with a password.
 
 ![alt text](images/mariadb_config.png "MariaBD Config")
-_note: If your using MariaDB with Home Assisant already you can skip this step. 
 
 After this is done, start the MariaDB Add-on and make sure it’s running correctly by looking in the logs. Now that MariaDB is running, go to the Nginx Proxy Manager and start the Add-on. 
 
